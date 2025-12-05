@@ -1,0 +1,56 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cal{
+    border: 5px groove blue;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 350px;
+    width: 320px;
+    padding: 35px;
+    background-color: black;
+    /* background-color: aqua; */
+    color: gold;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 15px black;
+
+}
+
+input,select{
+    padding: 10px;
+    background-color: gold;
+    opacity: 0.7;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 3px;
+}
+
+input::placeholder ,select{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+button{
+    margin-top: 3px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: gold;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#opt{
+    text-align: center;
+    font-size: 25px;
+    
+}

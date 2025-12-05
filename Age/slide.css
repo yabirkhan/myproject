@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+
+.box {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s all ease-in-out;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: aqua;
+}
+
+.three {
+    background-color: blue;
+}
+
+.btns{
+  width: 200px;
+  padding: 20px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+}
+
+.btns label{
+ display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.btns label:hover{
+    background-color: red;
+}
